@@ -36,3 +36,9 @@ jobs:
         
       - name: Build with Gradle
         run: ./gradlew build
+        
+      - name: Upload zipped artifact for download
+        uses: actions/upload-artifact@v2
+        with:
+          name: downloadable zipped jar file
+          path: build/libs/*.jar
