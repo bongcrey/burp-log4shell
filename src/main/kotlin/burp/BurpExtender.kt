@@ -22,7 +22,7 @@ import java.net.URL
 import java.util.*
 import java.util.concurrent.ConcurrentHashMap
 
-const val NAME = "Log4Shell scanner"
+const val NAME = "Met Log4Shell scanner"
 const val QUERY_HOSTNAME = 'h'
 const val QUERY_HOSTUSER = 'u'
 
